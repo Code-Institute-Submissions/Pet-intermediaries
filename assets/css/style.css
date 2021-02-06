@@ -1,16 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+/*Light-mode*/
+
+.light-background {
+    background-color: #92A332;
+}
+
+.light-color {
+    color: #92A332;
+    background-color: #CCCCCC;
+}
+
 /*Navbar*/
 
 .pets-nav {
-    background-color: #CCCCCC;
+   
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
 .pets-nav li {
     padding-right: 20px;
-    color: #92A332;
+    
 }
 
 .pets-nav a {
@@ -20,11 +31,11 @@
 
 .pets-nav i {
     font-size: 3rem;
-    color: #92A332;
+  
 }
 
 .pets-nav button {
-    background-color: #92A332;
+    
     margin-right: 1em;
 }
 
