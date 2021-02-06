@@ -4,6 +4,7 @@
 
 .light-background {
     background-color: #92A332;
+    color: #fafafa;
 }
 
 .light-color-bars { 
@@ -13,6 +14,7 @@
 
 .light-background-content {
     background-color: #A7BC5B;
+    color: #fafafa;
 }
 
 .light-section-background {
@@ -44,7 +46,6 @@
 }
 
 .pets-nav button {
-    
     margin-right: 1em;
 }
 
@@ -74,6 +75,8 @@
 .dogs-content {
     text-align: center;
 }
+
+
 
 /*Footer*/
 
