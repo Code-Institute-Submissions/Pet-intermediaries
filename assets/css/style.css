@@ -81,11 +81,14 @@
 .dogs-content h2 {
     border: 3px solid;
     border-color: black;
+    margin-bottom: 10%;
+    border-radius: 8%;
 }
 
 .dogs-content p {
     border: 3px solid;
     border-color: black;
+   
 }
 
 
