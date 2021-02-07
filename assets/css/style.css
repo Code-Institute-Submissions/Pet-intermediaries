@@ -81,8 +81,9 @@
 .dogs-content h2 {
     border: 3px solid;
     border-color: black;
-    margin-bottom: 10%;
     border-radius: 8%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .dogs-content p {
@@ -90,7 +91,6 @@
     border-color: black;
    
 }
-
 
 /*Footer*/
 
