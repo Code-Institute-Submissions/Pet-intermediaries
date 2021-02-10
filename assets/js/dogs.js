@@ -1,6 +1,6 @@
 
 $("#pug-button").click(function(){
-    $("#pug-info").slideToggle();
+    $("#pug-info").slideToggle("slow");
 });
 
 $("#german-button").click(function(){
