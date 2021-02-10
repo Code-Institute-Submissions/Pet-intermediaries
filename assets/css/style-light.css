@@ -3,22 +3,22 @@
 /*Light-mode*/
 
 .light-background {
-    background-color: #92A332;
+    background-color: rgba(50, 163, 56, 0.89);
     color: #fafafa;
 }
 
 .light-color-bars { 
-    color: #92A332;
-    background-color: #CCCCCC;
+    color: rgba(50, 163, 56, 0.89);
+    background-color: rgb(143, 246, 250);
 }
 
 .light-background-content {
-    background-color: #A7BC5B;
-    color: #fafafa;
+    background-color: rgb(48, 243, 123);
+    color: black;
 }
 
 .light-section-background {
-    background-color: #dadada;
+    background-color: rgb(175, 249, 252);
 }
 
 
@@ -90,6 +90,11 @@
     border: 3px solid;
     border-color: black;
    
+}
+
+.dogs-content img {
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 /*Pets-contact*/
