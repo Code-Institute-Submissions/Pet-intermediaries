@@ -22,3 +22,12 @@ $("#terrier-button").click(function(){
 $("#bernard-button").click(function(){
     $("#bernard-info").slideToggle("slow");
 });
+
+function intiMap(){
+    var map = new google.maps.Map(document.getElementById("dogmap"), {
+        center: {
+            lat: 59.334591,
+            lng: 18.063240
+        }
+    });
+};
