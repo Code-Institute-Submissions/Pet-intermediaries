@@ -68,6 +68,7 @@
 
 .pets-index h1 {
     text-align: center;
+    font-family: "exo", sans-serif;
 }
 
 /*content dogs*/
@@ -97,6 +98,10 @@
     margin-top: 3%;
     border: 3px solid;
     border-color: black;
+}
+
+div#dogmap {
+    min-height: 360px;
 }
 
 /*Pets-contact*/
