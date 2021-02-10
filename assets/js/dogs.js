@@ -4,21 +4,21 @@ $("#pug-button").click(function(){
 });
 
 $("#german-button").click(function(){
-    $("#german-info").slideToggle();
+    $("#german-info").slideToggle("slow");
 });
 
 $("#dane-button").click(function(){
-    $("#dane-info").slideToggle();
+    $("#dane-info").slideToggle("slow");
 });
 
 $("#wolfhound-button").click(function(){
-    $("#wolfhound").slideToggle();
+    $("#wolfhound").slideToggle("slow");
 });
 
 $("#terrier-button").click(function(){
-    $("#terrier-info").slideToggle();
+    $("#terrier-info").slideToggle("slow");
 });
 
 $("#bernard-button").click(function(){
-    $("#bernard-info").slideToggle();
+    $("#bernard-info").slideToggle("slow");
 });
