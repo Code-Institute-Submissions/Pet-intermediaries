@@ -21,3 +21,4 @@ $("#bengal-button").click(function(){
 $("#persian-button").click(function(){
     $("#persian-info").slideToggle("slow");
 });
+
