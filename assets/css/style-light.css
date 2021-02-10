@@ -21,26 +21,6 @@
     background-color: #dadada;
 }
 
-/*Dark-mode*/
-
-.dark-background {
-    background-color: #351C75;
-    color: #DEB992;
-}
-
-.dark-color-bars {
-    background-color: #20124D;
-    color: #DEB992;
-}
-
-.dark-background-content {
-    background-color: #351C75;
-    color: #DEB992;
-}
-
-.dark-section-background {
-    background-color: #351C75;
-}
 
 /*Navbar*/
 
