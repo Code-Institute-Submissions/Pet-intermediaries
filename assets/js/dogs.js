@@ -1,53 +1,12 @@
+const dogs = [{
+        name: "pug",
+        lifespan: "12 to 15 yers", 
+        colors: "Black Silver"},
+{
+    name: "Great Dane", 
+    lifespan: "8 to 10 years", 
+    colors: "Black Blue"}]
 
-$("#pug-button").click(function(){
-    $("#pug-info").slideToggle("slow");
-});
-
-$("#german-button").click(function(){
-    $("#german-info").slideToggle("slow");
-});
-
-$("#dane-button").click(function(){
-    $("#dane-info").slideToggle("slow");
-});
-
-$("#wolfhound-button").click(function(){
-    $("#wolfhound").slideToggle("slow");
-});
-
-$("#terrier-button").click(function(){
-    $("#terrier-info").slideToggle("slow");
-});
-
-$("#bernard-button").click(function(){
-    $("#bernard-info").slideToggle("slow");
-});
-
-function initMap() {
-            var map = new google.maps.Map(document.getElementById("dogmap"), {
-                zoom: 3,
-                center: {
-                    lat: 46.619261,
-                    lng: -33.134766
-                }
-            });
-            var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
-
-             var locations = [
-                { lat: 40.785091, lng: -73.968285 },
-                { lat: 41.084045, lng: -73.874245 },
-                { lat: 40.754932, lng: -73.984016}
-            ];
-
-
-            var markers = locations.map(function(location, i){
-                return new google.maps.Marker({
-                    position: location,
-                    label: labels[i % labels.length]
-                });
-            });
-
-             var markerCluster = new MarkerClusterer(map, markers, {
-                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-            });
-        }
+function dogsBreeds() {
+    
+}
