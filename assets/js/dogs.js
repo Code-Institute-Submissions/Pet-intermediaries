@@ -1,28 +1,23 @@
-const dogs = [{
-        name: "pug",		
-        lifespan: "12 to 15 yers", 
-        colors: "Black Silver"},
-{
-    name: "Great Dane", 
-    lifespan: "8 to 10 years", 
-    colors: "Black Blue"},
-{
-	name: "German Sheperd",
-	lifespan: "9 to 13 years",
-	colors: "Black, Sobel, Black and silver" },
+$("#pug-button").click(function(){
+    $("#pug-info").slideToggle("slow");
+});
 
-{	name: "Irish wolfhound",
-	lifespan: "6 to 10 years",
-	colors: "Black, white, fawn, gray"},
+$("#german-button").click(function(){
+    $("#german-info").slideToggle("slow");
+});
 
-{	name: "Bostonterrier",
-	lifespan: "13 to 15 years",
-	colors: "Black and white, Brindle and white"},
+$("#dane-button").click(function(){
+    $("#dane-info").slideToggle("slow");
+});
 
-{	name: "Saint Bernard",
-	lifespan: "8 to 10 years",
-	colors: "Red and white, Brownish-yellow, Reddish-brown"}]
+$("#wolfhound-button").click(function(){
+    $("#wolfhound").slideToggle("slow");
+});
 
-    function dogsBreeds() {
-    
-}
+$("#terrier-button").click(function(){
+    $("#terrier-info").slideToggle("slow");
+});
+
+$("#bernard-button").click(function(){
+    $("#bernard-info").slideToggle("slow");
+});
