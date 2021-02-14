@@ -1,7 +1,10 @@
-$("#intro").mouseenter(function(){
+$("#intro").mouseover(function(){
     $("#intro").fadeOut(1000);
 });
 
-$("#intro").mouseenter(function(){
-    $("#introP").fadeIn(1500);
-});
+function intron () {
+    var element = document.getElementById("indexP");
+    element.classList.remove("d-none");
+}
+
+
