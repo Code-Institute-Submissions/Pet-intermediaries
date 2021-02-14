@@ -14,14 +14,20 @@
 
 .light-background-content {
     background-color: rgb(48, 243, 123);
-    color: black;
+    border-radius: 10%;
 }
 
 .light-section-background {
     background-color: rgb(175, 249, 252);
 }
 
+.pet-bar{
+    padding-left: 50%;
+}
 
+.pets-nav h2 {
+    padding-left: 10%;
+}
 /*Navbar*/
 
 .pets-nav {
@@ -69,8 +75,7 @@
 }
 
 .pets-index-p {
-    border: 3px solid;
-    border-color: black;
+    border-radius: 10%;
 }
 
 .pets-index h1 {

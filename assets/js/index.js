@@ -2,9 +2,7 @@ $("#intro").mouseover(function(){
     $("#intro").fadeOut(1000);
 });
 
-function intron () {
-    var element = document.getElementById("indexP");
-    element.classList.remove("d-none");
-}
-
+$("#intro").mouseover(function(){
+    $("#indexP").fadeIn(2000).removeClass("d-none");
+})
 
