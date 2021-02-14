@@ -11,9 +11,7 @@ function initMap() {
             var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
 
              var locations = [
-                { lat: 40.785091, lng: -73.968285 },
-                { lat: 41.084045, lng: -73.874245 },
-                { lat: 40.754932, lng: -73.984016}
+                
             ];
 
 
@@ -24,7 +22,7 @@ function initMap() {
                 });
             });
 
-             var markerCluster = new MarkerClusterer(map, markers, {
+             var markerCluster = new MarkerClusterer(dogmap, markers, {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-            });
+              } );
         }

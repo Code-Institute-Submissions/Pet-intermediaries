@@ -28,6 +28,10 @@
 .pets-nav h2 {
     padding-left: 10%;
 }
+
+.pet-bar-act {
+    border-bottom: 3px solid;
+}
 /*Navbar*/
 
 .pets-nav {
@@ -60,6 +64,9 @@
     border-bottom: 3px solid;
 }
 
+.pet-bar a:hover {
+    color: rgba(50, 163, 56, 0.664);
+}
 
 
 /*content index*/
@@ -92,17 +99,14 @@
 }
 
 .dogs-content h2 {
-    border: 3px solid;
-    border-color: black;
-    border-radius: 8%;
+    padding-bottom: 1%;
+    border-radius: 10%;
     margin-right: 20%;
     margin-left: 20%;
 }
 
 .dogs-content p {
-    border: 3px solid;
-    border-color: black;
-   
+    border-radius: 10%;
 }
 
 .dogs-content img {
@@ -129,16 +133,14 @@ div#dogmap {
 }
 
 .cats-content h2 {
-    border: 3px solid;
-    border-color: black;
-    border-radius: 8%;
+     padding-bottom: 1%;
+    border-radius: 10%;
     margin-right: 20%;
     margin-left: 20%;
 }
 
 .cats-content p {
-    border: 3px solid;
-    border-color: black;
+   border-radius: 10%;
    
 }
 
