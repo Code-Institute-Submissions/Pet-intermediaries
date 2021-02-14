@@ -116,7 +116,7 @@
     border-color: black;
 }
 
-div#dogmap {
+.map {
     min-height: 360px;
 }
 

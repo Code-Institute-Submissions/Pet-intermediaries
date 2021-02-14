@@ -1,7 +1,7 @@
 
 
 function initMap() {
-            var map = new google.maps.Map(document.getElementById("dogmap"), {
+            var map = new google.maps.Map(document.getElementByClass("map"), {
                 zoom: 3,
                 center: {
                     lat: 46.619261,
@@ -22,7 +22,7 @@ function initMap() {
                 });
             });
 
-             var markerCluster = new MarkerClusterer(dogmap, markers, {
+             var markerCluster = new MarkerClusterer(map, markers, {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
               } );
         }
