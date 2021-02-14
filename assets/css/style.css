@@ -116,7 +116,7 @@
     border-color: black;
 }
 
-.map {
+div#map {
     min-height: 360px;
 }
 
