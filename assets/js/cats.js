@@ -21,3 +21,15 @@ $("#bengal-button").click(function(){
 $("#persian-button").click(function(){
     $("#persian-info").slideToggle("slow");
 });
+
+function catvoice() {
+   let currentCounter = sessionStorage.getItem("counter") || 0;
+
+   sessionStorage.setItem("counter", ++currentCounter);
+
+   if (currentCounter == 3) {
+       alert ("good");
+   } else {
+       alert ("meow");
+   }
+}

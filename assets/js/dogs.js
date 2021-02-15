@@ -21,3 +21,14 @@ $("#terrier-button").click(function(){
 $("#bernard-button").click(function(){
     $("#bernard-info").slideToggle("slow");
 });
+
+function voice (){
+   let currentCounter = sessionStorage.getItem("counter") || 0;
+
+
+   if (currentCounter == 3) {
+       alert ("good");
+   } else {
+       alert ("Woff");
+   } 
+}
