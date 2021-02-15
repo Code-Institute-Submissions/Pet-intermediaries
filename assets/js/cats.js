@@ -28,8 +28,6 @@ function catvoice() {
    sessionStorage.setItem("counter", ++currentCounter);
 
    if (currentCounter == 3) {
-       alert ("good");
-   } else {
-       alert ("meow");
-   }
+       alert ("Meow");
+   } 
 }

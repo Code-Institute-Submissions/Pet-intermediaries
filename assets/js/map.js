@@ -40,3 +40,7 @@ var markerCluster = new MarkerClusterer(map, markers, {
         var origin = new google.maps.LatLng (lat, lng);
         map.panTo(center);
     }
+
+    $('#kitties').click(function(){
+        moveLocation(32, 54);
+    })

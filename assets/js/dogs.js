@@ -27,8 +27,6 @@ function voice (){
 
 
    if (currentCounter == 3) {
-       alert ("good");
-   } else {
        alert ("Woff");
    } 
 }
