@@ -36,4 +36,7 @@ var markerCluster = new MarkerClusterer(map, markers, {
 });
         }
 
-initMap();
+    function moveLocation (lat, lng) {
+        var origin = new google.maps.LatLng (lat, lng);
+        map.panTo(center);
+    }
