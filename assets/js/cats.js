@@ -23,11 +23,7 @@ $("#persian-button").click(function(){
 });
 
 function catvoice() {
-   let currentCounter = sessionStorage.getItem("counter") || 0;
-
-   sessionStorage.setItem("counter", ++currentCounter);
-
-   if (currentCounter == 3) {
+  
        alert ("Meow");
-   } 
+   
 }
