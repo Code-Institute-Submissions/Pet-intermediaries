@@ -57,6 +57,8 @@ way not feeling alone.
     - Wireframes was created using Balsamiq Wireframes. The design diden't look like the end result
     but its more like a guidance. 
 
+    - [Wireframes] (https://github.com/KartexTiarc/MS2/blob/master/assets/MS2.pdf)
+
     ## Features
 
     ### Header
