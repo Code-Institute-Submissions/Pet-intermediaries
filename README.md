@@ -105,18 +105,39 @@ way not feeling alone.
     - Google Fonts - Used Google Fonts to import the font-family for my site. 
     - Font Awesome - The images used for social links was imported from Font Awesome. 
     - Balsamiq Wireframes - Balsamiq was used to do the Frameworks.
+    - Jquery - Used for JavaScript functions. 
 
     ## Testing
 
     ### Functionality Testing
 
+        - ### Navigation bar 
+        - Testing with both mobile and desktop.
+        - The Functionality worked very well on both.
+
     ### CSS3 Validator
+
+        - Passed- [Result] ()
 
     ### HTML5 Validator
 
+    - Home page - Pass - [Result]()
+    - Acitivty page - Pass - [Result]()
+    - Gallery page - Pass - [Result]()
+    - Contact page - Pass - [Result]()
+
+
     ### Comatibility Testing
 
+        - Browser Compatibility 
+
+        - Testing on Chrome mobile and desktop - Pass
+        - Testing on safari mobile and desktop - Pass
+
+
     ### Performance Testing
+
+        - Lighthouse Testing
 
     #### Testing User Stories
 
@@ -165,3 +186,13 @@ way not feeling alone.
     - All the code was written by - Christoffer Nyh.
     - To get the right colour schemes Balsamiq Wireframes was used. 
     - The README file was formed after the Code Institute Sample Read. 
+
+    ### Media 
+    - Pictures was downloaded from [Unsplash](https://unsplash.com/)
+    
+
+    ### ### Acknowledgements
+
+        - Thanks for the tutors that helped with technical problems.  
+        - Thanks to evryone that gave me advice and feedback about my page. 
+        - Very much thanks to my Mentors for helping with this project. 
