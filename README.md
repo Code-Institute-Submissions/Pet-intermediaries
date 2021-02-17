@@ -1,5 +1,7 @@
 <h1 alignt="center ">Pet intermediaries</h1>
 
+<h2 align="center"><img src="assets/images/lighthouse/mockup.png">
+
 
 ## About 
 
@@ -117,14 +119,14 @@ way not feeling alone.
 
     ### CSS3 Validator
 
-        - Passed- [Result] ()
+        - Passed- [Result] (https://jigsaw.w3.org/css-validator/validator)
 
     ### HTML5 Validator
 
-    - Home page - Pass - [Result]()
-    - Acitivty page - Pass - [Result]()
-    - Gallery page - Pass - [Result]()
-    - Contact page - Pass - [Result]()
+    - Home page - Pass - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkartextiarc.github.io%2FMS2%2Findex.html)
+    - Dogs page - Pass - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkartextiarc.github.io%2FMS2%2Fdogs.html)
+    - Cats page - Pass - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkartextiarc.github.io%2FMS2%2Fcats.html)
+    - Contact page - No Pass - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkartextiarc.github.io%2FMS2%2Fcontact.html)
 
 
     ### Comatibility Testing
@@ -138,23 +140,36 @@ way not feeling alone.
     ### Performance Testing
 
         - Lighthouse Testing
+        - Testing on Desktop
+
+        <img src="assets/images/lighthouse/lighthouseDesktop" width ="100%" height="auto">
+
+        - Test on mobile
+
+        <img src="assets/images/lighthouse/lighthouseMobile" width ="100%" height="auto">
 
     #### Testing User Stories
 
     - #### I want to able to get a pet easy way. 
 
     * I want a site that is easy to navigate. 
+    1. The page is easy to navigate. 
     * I want to be able to get easy read on different breeds. 
+    1. It shows in the navbar what kind of animals and there is for kind of breeds. 
 
     - #### When I visit the site I want to be able to get in contact with breeders.
 
     * I want t be able to see the most common breeds. 
+    1. There is pictures and information on each breed to make it easier. 
     * Easy way to get the one type of pet I am interrested in.
+    1. The contact site make it easy to send request what kind breed one is after. 
 
     - #### As a visitor that want to look it through a mobile phone.
 
     * I want to be able to look through the phone when I am feeling lazy. 
+    1. The site with toggle buttons make it easier to navigate the site. 
     * Be able to show for my housemates what I found in a easy way. 
+    1. It is easy to show for other the site. 
 
     ## Deployment
 
